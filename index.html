@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+  <!--  This is the head section where we add external resources and links  -->
+  <head>
+
+    <title> Alicia Schneider </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this is gridlex for our grid layouts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet">
+
+    <!-- this is the icon font, fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- link to css for portfolioFilter -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- This is our custom stylesheet, it always goes last -->
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <!-- This is the main content of the page -->
+  <body id="body">
+
+      <!-- this is our main header -->
+      <header class="grid">
+        <div class="col-4_sm-12">
+          <h1 class="left"> Alicia Schneider </h1>
+        </div>
+        <nav class="col-8_sm-12-middle right">
+          <a href="#about"> about </a>
+          <a href="portfolio.html"> portfolio </a>
+          <a href="#contact"> contact </a>
+          <a href="https://www.linkedin.com/in/alicia-schneider-45b738a0/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/alicia.schneider.7">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </nav>
+      </header>
+
+      <section class="banner padded center grid">
+        <div class="col-12-middle">
+          <h3>Content Writer and Editor</h3>
+        </div>
+      </section>
+
+      <section class="grid-center" id="about">
+        <div class="col-4_sm-12 padded">
+          <img src="images/alicia.jpeg" alt="Image" class="image">
+        </div>
+        <div class="col-8_sm-12 padded">
+          <h1>About</h1>
+          <p>Since receiving my BA in English & Creative writing, I have traveled to dozens of countries and gained experience writing content for different travel and high-tech companies.</p>
+        </div>
+      </section>
+
+
+    <!--- Reccomendations ----------->
+      <section class="grid-center padded" id="references">
+        <div class="col-8">
+        <h2 class="center">References</h2>
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+          </div>
+
+          <div class="mySlides">
+            <blockquote>xxx</blockquote>
+          </div>
+
+          <div class="mySlides">
+            <blockquote>xxx</blockquote>
+          </div>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      </section>
+
+      <footer class="padded center bg-dark grid-center" id="contact">
+        <div class="col-8_sm-12">
+          <h2> Contact </h2>
+          <a href="mailto:aliciaschnei@gmail.com"> aliciaschnei@gmail.com </a>
+          <nav class="social-links">
+            <a href="https://www.linkedin.com/in/alicia-schneider-45b738a0/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/alicia.schneider.7">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </nav>
+        </div>
+      </footer>
+
+      <!-- js links, always put your own last! -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+      <script src="https://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
+      <script src="scripts.js"></script>
+
+  </body>
+</html>
