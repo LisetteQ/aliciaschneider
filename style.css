@@ -126,6 +126,7 @@ footer a {
 
 footer a:hover {
   color: #d6d6d5;
+  text-decoration: none;
 }
 
 footer .fab {
