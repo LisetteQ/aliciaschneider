@@ -139,7 +139,7 @@ footer .fab {
 .banner {
   background-size: cover;
   background-position: center;
-  background-image: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  background-image: url('images/banner.jpg');
   background-color: #8E8487;
   background-attachment:fixed;
   min-height: 80vh;
