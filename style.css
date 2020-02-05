@@ -489,7 +489,6 @@ img {
 .form-style-5 input[type="url"],
 .form-style-5 textarea,
 .form-style-5 select {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
