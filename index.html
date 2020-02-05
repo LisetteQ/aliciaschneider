@@ -44,7 +44,12 @@
       </section>
 
       <section class="grid-center-middle editable" id="about">
-        <div class="col-3_sm-10"><img alt="Image" class="image" src="images/alicia.jpg" /></div>
+        <div class="col-3_sm-10">
+          <div style="position: relative; left: 0; top: 0;">
+                    <img src="images/6b747c.jpg" class="fishes"/>
+                    <img src="images/alicia.jpg" class="fish"/>
+                  </div>
+                </div>
         <div class="col-7_sm-10 padded">
           <h2>About</h2>
           <p>I&rsquo;m Alicia, your awesome freelance writer who specializes in writing original pieces for businesses looking to improve their content. I understand how to string words together in a way that appeals to both search engines and your prospective clients.</p>
@@ -52,6 +57,19 @@
           <p>I&rsquo;m also quite the explorer. With over 50 countries checked off of my bucket list, I&rsquo;ve gathered the travel intel needed to write guides, stories, and articles that captivate and inspire.</p>
           <p>Are you ready to level up your content? Just send me an email at aliciaschnei@gmail.com and I&rsquo;ll get back to you ASAP.</p>
           <p>&nbsp;</p>
+        </div>
+      </section>
+
+      <!-- Three pictures -->
+      <section class="grid-center padded">
+        <div class="col-3_lg-10">
+          <img src="images/writer5.jpg">
+        </div>
+        <div class="col-3_lg-10">
+          <img src="images/writer3.jpg">
+        </div>
+        <div class="col-3_lg-10">
+          <img src="images/writer2.jpg">
         </div>
       </section>
 
@@ -93,12 +111,36 @@
         </div>
       </section>
 
-      <footer class="padded center bg-dark grid-center" id="contact">
-        <div class="col-8_sm-12 editable">
+      <footer class="padded2 center bg-dark grid-center" id="contact">
+        <div class="col-4_sm-12 editable">
           <h2>Contact</h2>
-          <p><a href="mailto:aliciaschnei@gmail.com">aliciaschnei@gmail.com </a></p>
+          <p><a href="mailto:aliciaschnei@gmail.com">aliciaschnei@gmail.com</a></p>
           <nav class="social-links"><a href="https://www.linkedin.com/in/alicia-schneider-45b738a0/"><i class="fab fa-linkedin"></i> </a> <a href="https://www.facebook.com/alicia.schneider.7"> <i class="fab fa-facebook"></i> </a></nav>
         </div>
+        <div class="col-4_sm-12 editable">
+
+
+
+        <form class="form-style-5 center" action="/index.html" method="post">
+          <input type="hidden" name="_to" value="aliciaschnei@gmail.com">
+        <label for="field1">
+        <span>Name</span><input type="text" name="field1" required="true" />
+        </label>
+        <label for="field2">
+        <span>Email</span><input type="email" name="field2" required="true" />
+        </label>
+        <label for="field3">
+        <span>Subject</span><input type="text" name="field3" required="true" />
+        </label>
+        <label for="field4">
+        <span>Message</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+        </label>
+        <label>
+        <span> </span><input type="submit" value="Send" />
+        </label>
+        </form>
+                </div>
+
         <div class="col-12_sm-12 right">
             <ul>&copy; Alicia Schneider | Made by: <a href="www.lisettequirijns.com">Lisette Quirijns</a></ul>
         </div>
